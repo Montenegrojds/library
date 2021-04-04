@@ -1,6 +1,13 @@
 body{
     background-color: whitesmoke;
 }
+
+:root{
+    
+    --displayform: none;
+
+}
+
 .flex-conteiner{
   display: flex;
   align-items: center;
@@ -24,7 +31,7 @@ body{
 	height: 100%;
 	position: absolute;
 	top: 0;
-    display: none;
+    display: var(--displayform);
 	justify-content: center;
 	align-items: center;
 }
